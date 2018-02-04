@@ -112,7 +112,7 @@ Page({
     } 
     else if (data == "0") { data = id}
     else {data= data + id}
-    var lastWord = data.subsring(data.length - 1, data.length)
+    var lastWord = data.substring(data.length - 1, data.length)
     if (lastWord == this.data.id4 || lastWord == this.data.id8 || lastWord == this.data.id12 || lastWord == this.data.id16 ) {
     this.setData({ lastIsOperator: true })}
     else {this.setData({ lastIsOperator:false })}
